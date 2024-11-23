@@ -1,4 +1,5 @@
 [workspace]
+members = ["examples/hello/main.rs"]
 
 [package]
 name = "wasm-noodles"
@@ -6,3 +7,4 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+wasmtime = "27.0.0"
