@@ -12,7 +12,7 @@ fn main() -> Result<()> {
     // default like this is here.
     println!("Compiling module...");
     let engine = Engine::default();
-    let module = Module::from_file(&engine, "examples/hello.wat")?;
+    let module = Module::from_file(&engine, "examples/hello/hello.wat")?;
 
     // After a module is compiled we create a `Store` which will contain
     // instantiated modules and other items like host functions. A Store
