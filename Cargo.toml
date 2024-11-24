@@ -1,5 +1,9 @@
 [workspace]
-members = ["examples/hello/main.rs"]
+members = [
+  "examples/hello/main.rs",
+  "examples/hey/main.rs",
+  "examples/gcd/main.rs",
+]
 
 [package]
 name = "wasm-noodles"
